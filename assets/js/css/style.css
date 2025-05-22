@@ -1,0 +1,296 @@
+/* Import Open Sans from Google Fonts */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.eot");
+    src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("../fonts/OpenSans-Bold.woff") format("woff"),
+        url("../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-BoldItalic.eot");
+    src: url("../fonts/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-BoldItalic.woff2") format("woff2"),
+        url("../fonts/OpenSans-BoldItalic.woff") format("woff"),
+        url("../fonts/OpenSans-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Italic.eot");
+    src: url("../fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Italic.woff2") format("woff2"),
+        url("../fonts/OpenSans-Italic.woff") format("woff"),
+        url("../fonts/OpenSans-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-ExtraBoldItalic.eot");
+    src: url("../fonts/OpenSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2"),
+        url("../fonts/OpenSans-ExtraBoldItalic.woff") format("woff"),
+        url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-ExtraBold.eot");
+    src: url("../fonts/OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"),
+        url("../fonts/OpenSans-ExtraBold.woff") format("woff"),
+        url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.eot");
+    src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Light.woff2") format("woff2"),
+        url("../fonts/OpenSans-Light.woff") format("woff"),
+        url("../fonts/OpenSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-LightItalic.eot");
+    src: url("../fonts/OpenSans-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-LightItalic.woff2") format("woff2"),
+        url("../fonts/OpenSans-LightItalic.woff") format("woff"),
+        url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.eot");
+    src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("../fonts/OpenSans-Regular.woff") format("woff"),
+        url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-MediumItalic.eot");
+    src: url("../fonts/OpenSans-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-MediumItalic.woff2") format("woff2"),
+        url("../fonts/OpenSans-MediumItalic.woff") format("woff"),
+        url("../fonts/OpenSans-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Medium.eot");
+    src: url("../fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Medium.woff2") format("woff2"),
+        url("../fonts/OpenSans-Medium.woff") format("woff"),
+        url("../fonts/OpenSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.eot");
+    src: url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-SemiBold.woff2") format("woff2"),
+        url("../fonts/OpenSans-SemiBold.woff") format("woff"),
+        url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBoldItalic.eot");
+    src: url("../fonts/OpenSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/OpenSans-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/OpenSans-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: .875rem;
+    line-height: 1.34;
+    background-color: #fff;
+}
+
+.container {
+    background-color: #f0f2f5;
+    padding-top: 4.5rem;
+    padding-bottom: 7rem;
+}
+
+.content {
+    width: 61.25rem;
+    margin: 1.25rem auto;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.content__left {
+    width: 59%;
+    padding-right: 2rem;
+}
+
+.content__logo img {
+    height: 6.625rem;
+    margin: -1.75rem;
+}
+
+.content__text {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #1c1e21;
+    margin-top: 1rem;
+}
+
+.content__login {
+    background-color: #fff;
+    width: 24.75rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.content__login input {
+    width: 100%;
+    font-size: 17px;
+    padding: .875rem 1rem;
+    color: #1d2129;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+
+.content__login input:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+
+.content__login .login {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 0 1rem;
+    width: 100%;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.content__login .login:hover {
+    background-color: #1877f2;
+}
+
+.content__forgotten {
+    text-align: center;
+}
+
+.content__forgotten a {
+    text-decoration: none;
+    display: inline-block;
+    color: #0866ff;
+    font-size: .875rem;
+    font-weight: 500;
+    margin-top: 1rem;
+
+}
+
+.content__forgotten a:hover {
+    text-decoration: underline;
+}
+
+.content__divider {
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin: 1.25rem 0;
+    text-align: center;
+}
+
+.content__login .signup {
+    display: inline-block;
+    border: none;
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: .375rem;
+    font-size: 17px;
+    line-height: 3rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    margin: .375rem 0 1rem;
+    text-decoration: none;
+}
+
+.content__login .signup:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.create {
+    color: #1c1e21;
+    text-align: center;
+    margin-top: 1.75rem;
+}
+
+.create a {
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #1c1e21;
+}
+
+.create a:hover {
+    text-decoration: underline;
+}

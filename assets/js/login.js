@@ -1,23 +1,21 @@
-// simulate of saving user info in local storage
+document.getElementById("loginForm").addEventListener("submit", async function (e) {
+	e.preventDefault();
 
-const form = document.querySelector( "form" );
+	const loginUser = document.getElementById("username").value;
+	const password = document.getElementById("password").value;
 
-if ( savedUser )
-{
-    const { username, password } = JSON.parse( savedUser );
-    document.getElementById( "username" ).value = username || "";
-    document.getElementById( "password" ).value = password || "";
-}
+	const response = await fetch("http://localhost:3000/users");
+	const users = await response.json();
 
-form.addEventListener( "submit", function ( e )
-{
-    e.preventDefault();
+	const user = users.find(
+		(l) => (l.email === loginUser || l.username === loginUser || l.phone === loginUser) && l.password === password
+	);
 
-    const username = document.getElementById( "username" ).value.trim();
-    const password = document.getElementById( "password" ).value.trim();
-
-    localStorage.setItem( "user", JSON.stringify( { username, password } ) );
-    window.location.href = "pages/home.html";
-} );
-
-
+	if (user) {
+		localStorage.setItem("user", JSON.stringify(user));
+		// localStorage.setItem("loggedUser", user.fullName);
+		window.location.href = "pages/home.html";
+	} else {
+		alert("The username or password is not correct.");
+	}
+});

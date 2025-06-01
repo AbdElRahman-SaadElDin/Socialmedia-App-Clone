@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.0.1",
+    "@google/generative-ai": "^0.24.1",
+    "json-server": "^1.0.0-beta.3",
+    "mime": "^4.0.7",
+    "openai": "^4.103.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  },
+  "name": "socialmedia-clone-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

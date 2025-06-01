@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Post Details</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="../assets/css/post-details.css" />
+		<link rel="stylesheet" href="../assets/css/chatbot.css" />
+	</head>
+	<body>
+		<div id="post-details-container">
+			<div class="post-details-card">
+				<div class="post-header">
+					<img id="post-user-img" class="user-img" style="width: 40px; height: 40px; border-radius: 50%" />
+					<div>
+						<span id="post-user-name" class="user-name"></span><br />
+						<span id="post-time" class="post-time" style="color: #65676b; font-size: 0.95rem"></span>
+					</div>
+				</div>
+				<p id="post-body" class="post-body"></p>
+				<div class="post-meta">
+					<i class="fa-solid fa-thumbs-up"></i><span id="post-likes"></span> | <i class="fa-solid fa-message"></i
+					><span id="post-comments"></span>
+				</div>
+				<hr />
+				<h3>Comments</h3>
+				<div id="comments-list" class="comments-list"></div>
+			</div>
+		</div>
+
+		<div class="chat">
+			<div id="chatbot-popup" class="chatbot-hidden">
+				<div class="chatbot-header">
+					<h3>Chatbot</h3>
+					<button id="close-btn">&times;</button>
+				</div>
+				<div class="chatbot-body" id="chat-body"></div>
+				<div class="chatbot-footer">
+					<input type="text" id="user-input" placeholder="Type a message..." />
+					<button id="send-btn">Send</button>
+				</div>
+			</div>
+
+			<button id="chatbot-button"><i class="fa-solid fa-message"></i></button>
+		</div>
+
+		<script src="../assets/js/post-details.js"></script>
+		<script src="../assets/js/chatbot.js"></script>
+	</body>
+</html>

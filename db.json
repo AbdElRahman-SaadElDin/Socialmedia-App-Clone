@@ -1,0 +1,236 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"firstName": "AbdElRahman",
+			"lastName": "Saad",
+			"fullName": "AbdElRahman Saad",
+			"email": "abdelrahman.saad@example.com",
+			"username": "abdelrahman.saad",
+			"phone": "01202004000",
+			"password": "saad",
+			"age": 30,
+			"image": "https://example.com/image1.jpg",
+			"dateOfBirth": "2001-11-06",
+			"date": "2023-10-01T12:00:00Z"
+		},
+		{
+			"id": "b6c8",
+			"firstName": "Monzer",
+			"lastName": "Mohamed",
+			"fullName": "Monzer Mohamed",
+			"email": "monzersaad@gmail.com",
+			"username": "m.saad",
+			"phone": "0100000089",
+			"password": "@SMonzer5555",
+			"age": 45,
+			"dateOfBirth": "",
+			"image": "",
+			"date": "2025-06-01T18:12:40.076Z"
+		}
+	],
+	"posts": [
+		{
+			"id": "1",
+			"date": "2020-10-01T12:00:00Z",
+			"userId": "1",
+			"postBody": "I am AbdElRahman Saad, a software engineer with a passion for coding and technology. (not real data just for try fetching)",
+			"image": "https://example.com/image1.jpg",
+			"likesNumber": 25,
+			"commentsNumber": 5
+		},
+		{
+			"id": "2",
+			"date": "2021-03-15T09:30:00Z",
+			"userId": "2",
+			"postBody": "Just launched my first React app! It's been a wild ride learning about components and hooks. 🚀 (not real data just for try fetching)",
+			"image": "https://example.com/image2.jpg",
+			"likesNumber": 40,
+			"commentsNumber": 12
+		},
+		{
+			"id": "3",
+			"date": "2021-06-20T18:45:00Z",
+			"userId": "3",
+			"postBody": "Exploring data science has been such an eye-opening experience. Python, pandas, and scikit-learn are my new best friends. (not real data just for try fetching)",
+			"image": "https://example.com/image3.jpg",
+			"likesNumber": 55,
+			"commentsNumber": 8
+		},
+		{
+			"id": "4",
+			"date": "2022-01-05T14:10:00Z",
+			"userId": "1",
+			"postBody": "Working on an open-source project with some awesome developers around the world! 🌍 Collaboration is everything. (not real data just for try fetching)",
+			"image": "https://example.com/image4.jpg",
+			"likesNumber": 70,
+			"commentsNumber": 20
+		},
+		{
+			"id": "5",
+			"date": "2022-11-11T20:20:00Z",
+			"userId": "4",
+			"postBody": "Just passed my AWS certification exam! 💪 Cloud computing here I come! (not real data just for try fetching)",
+			"image": "https://example.com/image5.jpg",
+			"likesNumber": 85,
+			"commentsNumber": 15
+		},
+		{
+			"id": "6",
+			"date": "2025-04-28T07:50:00Z",
+			"userId": "5",
+			"postBody": "Attended a machine learning bootcamp this weekend and built a project that predicts housing prices. Super pumped! (not real data just for try fetching)",
+			"image": "https://example.com/image6.jpg",
+			"likesNumber": 33,
+			"commentsNumber": 6
+		},
+		{
+			"id": "090c",
+			"date": "2025-06-01T15:57:46.022Z",
+			"userId": "1",
+			"postBody": "I am AbdElRahman Saad, a software engineer with a passion for coding and technology. My first real post",
+			"image": "https://example.com/image1.jpg",
+			"likesNumber": 0,
+			"commentsNumber": 0
+		},
+		{
+			"id": "6dec",
+			"date": "2025-06-01T18:20:43.284Z",
+			"userId": "b6c8",
+			"postBody": "I am Monzer Saad. Second Post",
+			"image": "https://example.com/image1.jpg",
+			"likesNumber": 0,
+			"commentsNumber": 5
+		},
+		{
+			"id": "e835",
+			"date": "2025-06-01T18:41:55.581Z",
+			"userId": "1",
+			"postBody": "Third real Post",
+			"image": "https://example.com/image1.jpg",
+			"likesNumber": 0,
+			"commentsNumber": 2
+		}
+	],
+	"comments": [
+		{
+			"id": "1",
+			"date": "2023-10-01T12:00:00Z",
+			"userId": "1",
+			"postId": "1",
+			"commentBody": "Nice post!",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "303d",
+			"date": "2025-06-01T17:13:27.009Z",
+			"userId": "f16b",
+			"postId": "0c19",
+			"commentBody": "hello",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "dfd6",
+			"date": "2025-06-01T17:13:41.097Z",
+			"userId": "f16b",
+			"postId": "0c19",
+			"commentBody": "hi",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "ecbf",
+			"date": "2025-06-01T18:08:51.539Z",
+			"userId": "1",
+			"postId": "85ea",
+			"commentBody": "Hello",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "a7a7",
+			"date": "2025-06-01T18:09:01.835Z",
+			"userId": "1",
+			"postId": "85ea",
+			"commentBody": "how are you",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "bfea",
+			"date": "2025-06-01T18:13:12.572Z",
+			"userId": "b6c8",
+			"postId": "85ea",
+			"commentBody": "Hellos",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "ffef",
+			"date": "2025-06-01T18:13:46.107Z",
+			"userId": "b6c8",
+			"postId": "85ea",
+			"commentBody": "Hellos",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "6af0",
+			"date": "2025-06-01T18:21:04.956Z",
+			"userId": "b6c8",
+			"postId": "6dec",
+			"commentBody": "Monzer Mohamed",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "b35c",
+			"date": "2025-06-01T18:21:29.571Z",
+			"userId": "b6c8",
+			"postId": "6dec",
+			"commentBody": "Hello Monzer",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "7c88",
+			"date": "2025-06-01T18:21:51.934Z",
+			"userId": "b6c8",
+			"postId": "6dec",
+			"commentBody": "Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad Saad",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "8494",
+			"date": "2025-06-01T18:38:56.780Z",
+			"userId": "b6c8",
+			"postId": "6dec",
+			"commentBody": "Comment",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "a6fc",
+			"date": "2025-06-01T18:40:14.700Z",
+			"userId": "1",
+			"postId": "6dec",
+			"commentBody": "Abdelrahman Comment",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "009c",
+			"date": "2025-06-01T18:52:34.789Z",
+			"userId": "1",
+			"postId": "e835",
+			"commentBody": "saad",
+			"image": "https://example.com/image1.jpg"
+		},
+		{
+			"id": "d3a9",
+			"date": "2025-06-01T18:53:12.021Z",
+			"userId": "b6c8",
+			"postId": "e835",
+			"commentBody": "Monzer",
+			"image": "https://example.com/image1.jpg"
+		}
+	],
+	"likes": [
+		{
+			"id": "1",
+			"userId": "1",
+			"postId": "1"
+		}
+	]
+}

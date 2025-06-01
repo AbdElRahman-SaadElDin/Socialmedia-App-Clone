@@ -1,61 +1,77 @@
 <!--  Login Page -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social Media Clone</title>
-    <script src="assets/js/redirect.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Social Media Clone</title>
+		<script>
+			if (localStorage.getItem("user")) {
+				window.location.href = "pages/home.html";
+			}
+		</script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="icon" type="image/svg+xml" href="../assets/images/facebook-logo.jpg" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/chatbot.css" />
+	</head>
 
-  <body>
-    <div class="container">
-      <div class="content">
-        <div class="content__left">
-          <div class="content__logo">
-            <img src="assets/images/logo.svg" alt="Facebook" />
-          </div>
-          <h2 class="content__text">
-            Connect with friends and the world around you on Facebook.
-          </h2>
-        </div>
-        <div class="content__right">
-          <div class="content__login">
-            <form>
-              <input
-                type="text"
-                placeholder="Email address or Phone Number"
-                class="content__input"
-                id="username"
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                class="content__input"
-                id="password"
-              />
-              <button class="login" type="submit" class="content__button">
-                Log In
-              </button>
-            </form>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="content__left">
+					<div class="content__logo">
+						<img src="assets/images/logo.svg" alt="Facebook" />
+					</div>
+					<h2 class="content__text">Connect with friends and the world around you on Facebook.</h2>
+				</div>
+				<div class="content__right">
+					<div class="content__login">
+						<form id="loginForm">
+							<input type="text" placeholder="Email address or Phone Number" class="content__input" id="username" />
+							<input type="password" placeholder="Password" class="content__input" id="password" />
+							<button class="login content__button" type="submit">Log In</button>
+						</form>
 
-            <div class="content__forgotten">
-              <a href="#" class="content__link">Forgotten password?</a>
-            </div>
+						<div class="content__forgotten">
+							<a href="#" class="content__link">Forgotten password?</a>
+						</div>
 
-            <div class="content__divider"></div>
-            <a href="#" class="signup">Create new account</a>
-          </div>
+						<div class="content__divider"></div>
+						<a href="pages/signup.html" class="signup">Create new account</a>
+					</div>
 
-          <div class="create">
-            <a href="#">Create a Page</a>
-            <span>for a celebrity, brand or business</span>
-          </div>
-        </div>
-      </div>
-    </div>
+					<div class="create">
+						<a href="#">Create a Page</a>
+						<span>for a celebrity, brand or business</span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <script src="assets/js/login.js"></script>
-  </body>
+		<div class="chat">
+			<div id="chatbot-popup" class="chatbot-hidden">
+				<div class="chatbot-header">
+					<h3>Chatbot</h3>
+					<button id="close-btn">&times;</button>
+				</div>
+				<div class="chatbot-body" id="chat-body"></div>
+				<div class="chatbot-footer">
+					<input type="text" id="user-input" placeholder="Type a message..." />
+					<button id="send-btn">Send</button>
+				</div>
+			</div>
+
+			<button id="chatbot-button"><i class="fa-solid fa-message"></i></button>
+		</div>
+
+		<script src="assets/js/login.js"></script>
+		<script src="assets/js/chatbot.js"></script>
+	</body>
 </html>

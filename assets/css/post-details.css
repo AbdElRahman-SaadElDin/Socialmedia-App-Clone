@@ -1,0 +1,110 @@
+/* post-details.css - Card style for post details page */
+
+body {
+	background: #f0f2f5;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+#post-details-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: 100vh;
+	padding: 2rem 0;
+}
+
+.post-details-card {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.08);
+	padding: 1.5rem 2rem 2rem 2rem;
+	width: 100%;
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+.post-header {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.user-img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 1px solid #e4e6eb;
+}
+
+.user-name {
+	font-weight: 700;
+	color: #050505;
+	font-size: 1.1rem;
+}
+
+.post-body {
+	font-size: 1.5rem;
+	color: #1c1e21;
+	margin: 0.5rem 0 1rem 0;
+}
+
+.post-meta {
+	color: #65676b;
+	font-size: 0.95rem;
+	margin-bottom: 0.5rem;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #e4e6eb;
+	margin: 1rem 0;
+}
+
+h3 {
+	font-size: 1.1rem;
+	color: #65676b;
+	margin-bottom: 0.5rem;
+}
+
+.comments-list {
+	margin-top: 0.5rem;
+}
+
+.comment-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+	background: #f0f2f5;
+	border-radius: 8px;
+	padding: 0.5rem 0.75rem;
+}
+
+.comment-item .user-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 1px solid #ccc;
+}
+
+.comment-user {
+	font-weight: bold;
+	color: #050505;
+	margin-right: 8px;
+}
+
+.comment-body {
+	color: #333;
+	background: #f0f2f5;
+	padding: 6px 12px;
+	border-radius: 16px;
+	font-size: 0.98rem;
+}
+
+i {
+	margin-right: 5px;
+	font-size: large;
+}

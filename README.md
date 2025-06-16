@@ -44,3 +44,20 @@ Socialmedia Clone Project/
 - This project is for educational/demo purposes and does not include real authentication or persistent backend storage.
 - All data is stored in `db.json` and managed by json-server.
 
+## Summary of Relationships in db.json
+| Entity  | Relationship | Related Entity |
+| ------- | ------------ | -------------- |
+| User    | has many     | Posts          |
+| User    | has many     | Comments       |
+| User    | has many     | Likes          |
+| Post    | belongs to   | User           |
+| Post    | has many     | Comments       |
+| Post    | has many     | Likes          |
+| Comment | belongs to   | User           |
+| Comment | belongs to   | Post           |
+| Like    | belongs to   | User           |
+| Like    | belongs to   | Post           |
+------------------------------------------
+### Entity Relationship Diagram (ERD)
+![Untitled (4)2](https://github.com/user-attachments/assets/b783a41a-92da-4c1a-9a19-299d1c25ca8a)
+
